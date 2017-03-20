@@ -1,0 +1,32 @@
+* { 
+    margin: 0; 
+    padding: 0;
+}
+
+body, html { 
+    height: 100%; 
+    overflow: hidden;
+    background-color: black;
+}
+
+#glcanvas {
+    position: absolute;
+    left: 1%;
+    width: 98%;
+    top: 1%;
+    height: 93%;
+    border: 0px solid black;
+	background-color: black;
+}
+
+#formulaInput {
+    position: absolute;
+    left: 1%;
+    width: 98%;
+    top: 94%;
+    height: 3%;
+}
+
+video {
+	display: none;
+}
